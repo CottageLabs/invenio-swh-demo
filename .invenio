@@ -1,0 +1,35 @@
+[cli]
+flavour = RDM
+logfile = /logs/invenio-cli.log
+
+[cookiecutter]
+project_name = invenio-swh-feb
+project_shortname = invenio-swh-feb
+project_site = invenio-swh-feb.com
+github_repo = invenio-swh-feb/invenio-swh-feb
+description = invenio-swh-feb InvenioRDM Instance
+author_name = CERN
+author_email = info@invenio-swh-feb.com
+year = 2021
+python_version = 3.8
+database = postgresql
+elasticsearch = 7
+file_storage = local
+_template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
+
+[files]
+app_data = {'README.md': 'd58978488626bdeddc791a15a39e341a4ed06f202b84d0c0d4aa9ef49481c6d9'}
+readme.md = 85ffc6fe9ca3d0908090f9c1c1091fd02d81dd92f291256dc2e655a9c2077132
+docker-compose.yml = 0ea1e69992ab671b35cc9ec66bd670a1e42f4b19b1c20e22ce4ff2915ebda78c
+templates = {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}
+static = {'images': {'invenio-rdm.svg': '50f09b4d83244a69c58f44aa436a3fa097726d9b47fd0e0782ea92d31f854b65'}}
+docker-services.yml = b21765950e9debccc5fd7d9519481d2a73ffb65c2553ce90302eef06fa0fcd17
+.gitignore = 0be2f3d2c1c9489ca861c4ca55a9c1845c22c43cbf92ed0cfaeeabde9b7ab2d2
+dockerfile = 6ed7ddece5c52c1b75aa764cf38cfc3a0a4209e824ab66e9930f67012fb2e170
+pipfile = e714d31635d507a77bb7b8f1e91cc2b1d7ba9dbfe5d07ab3b355dc0e6dd00199
+docker-compose.full.yml = 7029bb26673ecb3ea3a16de0fc86904dc0d779928a51b979f4f9de8806837376
+.dockerignore = 21241bc12cdf4ac5f209d6b191adc8f25eb89af93ce5c4c3f72c86661162d7b5
+assets = {'templates': {'search': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}}, 'less': {'theme.config': '047932f53a4a3e8e94d7cf0692f73bb3cae0eb868b0ebed6b53d614c187cd58d', 'site': {'globals': {'site.variables': '240edff66017032089fa196146097a87ed174f61f90363609a2db0d0acbfa4a1', 'site.overrides': '486bbf0de79fe4e258f3247d6348801264320529d44d716202baf0aa8e9d86e8'}}, 'theme.less': '816518c2628cb584882d3020a3cf9eb1f81be794414770af31726359353f03a8', 'variables.less': 'e04d395806875c75abe96703cefaa06316ad867fa91e37b93a99e889a5f3be70'}}
+docker = {'uwsgi': {'uwsgi_ui.ini': 'c80168dc8d29086b876caab41b5057fddef46bdc748c5ecf213f684aa73cc90c', 'uwsgi_rest.ini': 'c36fc5021baf15f375b3b6c825f7753e5d166319c5fe38a85b604391ce5b37b6'}, 'nginx': {'test.crt': 'e87330a3baf6d9f670fea6a16de97fd15be8d546c99f6c0945853fc7d9103afa', 'nginx.conf': '6c9a6e372fc340dfcd3b49e6a30bd7bd36af41d79d1d093b7b3ba5f4c9d781b4', 'test.key': 'e635338188949ed23dde9105e16f3078caef114c4f52d91f63c84af62d7e03a3', 'Dockerfile': '541326766beaba2e8492255c99e11aa76640d71329ceab5bcab1c8d6a979bd5c', 'conf.d': {'default.conf': 'e67e7706033598798ec422bba13243266a081c255162ba3b2d446cf97e92a148'}}}
+invenio.cfg = 7a2fe1e60e91e780026f25f8cf83aa8ed9d2d552b432e693cc4491ee4b9d35dd
+

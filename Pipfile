@@ -12,6 +12,7 @@ invenio-app-rdm = {extras = ["postgresql", "elasticsearch7"], version = "~=0.19.
 uwsgi = ">=2.0"
 uwsgitop = ">=0.11"
 uwsgi-tools = ">=1.1.1"
+invenio-swh = "*"
 
 [requires]
 python_version = "3.8"

@@ -581,10 +581,10 @@
         },
         "httplib2": {
             "hashes": [
-                "sha256:749c32603f9bf16c1277f59531d502e8f1c2ca19901ae653b49c4ed698f0820e",
-                "sha256:e0d428dad43c72dbce7d163b7753ffc7a39c097e6788ef10f4198db69b92f08e"
+                "sha256:8af66c1c52c7ffe1aa5dc4bcd7c769885254b0756e6e69f953c7f0ab49a70ba3",
+                "sha256:ca2914b015b6247791c4866782fa6042f495b94401a0f0bd3e1d6e0ba2236782"
             ],
-            "version": "==0.19.0"
+            "version": "==0.18.1"
         },
         "idna": {
             "hashes": [
@@ -1356,11 +1356,11 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:1411dc3c26dfbfb55b88d8239484b2f2a9df4e69e67965711b187c8917bff872",
-                "sha256:4ccd91f540ef57732d38451889b915ab75a78e04f427e9f2811ff9da0332a174"
+                "sha256:0fa02fa80363844a4ab4b8d6891f62dd0645ba672723130423ca4037b80c1974",
+                "sha256:62c811e46bd09130fb11ab759012a4ae385ce4fb2073442d1898867a824183bd"
             ],
             "markers": "python_full_version >= '3.6.1'",
-            "version": "==3.0.15"
+            "version": "==3.0.16"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -1713,10 +1713,11 @@
         },
         "sword2": {
             "hashes": [
-                "sha256:2960d8d473e6e0593ea6838fab469eeebc8425e2a3c9d87168440c4036ca9039",
-                "sha256:d872c29a317d7df22a8bbed03a44a65df9710a37cfc4558ffc2d9acaf70efd2f"
+                "sha256:720f171ff13ff69baef682f753b8636b074469c38441dfaedaa08de1d4f419ec",
+                "sha256:ae8a7165b2c0389cc1aa4ad75a4ca866c232e4506e6a4b7dd50b81082049c89f"
             ],
-            "version": "==0.2.1"
+            "markers": "python_version >= '3.7'",
+            "version": "==0.3"
         },
         "testpath": {
             "hashes": [

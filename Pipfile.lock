@@ -903,11 +903,11 @@
         },
         "invenio-swh": {
             "hashes": [
-                "sha256:175da088df0db381cfa2a0fcd7e509d7fe29120718800e353ab861aa67fc21f2",
-                "sha256:d1fd798f1f0c3cb271800bb2c3df5ea131fd80fc6e9ffd1488e7b2adfc5de037"
+                "sha256:f092a2c2a2158a77576fc0c9583612926a219fb97ed17fdd70d79177f02301b7",
+                "sha256:f6c3ce1dc80c32afe06ce8cae43eb113a67ac3535e1cacad3f1f87c720d7dff9"
             ],
             "index": "pypi",
-            "version": "==0.1.dev1"
+            "version": "==0.1.dev2"
         },
         "invenio-theme": {
             "hashes": [
